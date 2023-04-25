@@ -14,14 +14,13 @@ body{
 header{
     background-color: #ffffff;
     padding: 7px 3px;
-    box-shadow: #e1e3e0 3px 3px;
-    width: 100%;
+    box-shadow: #e1e3e0 0px 3px;
 }
 header nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     
 }
 header nav ul li{
@@ -38,12 +37,13 @@ header nav ul li a{
     display: flex;
     flex-direction: row;
     /* flex-wrap: nowrap; */
-    justify-content: flex-end;
+    justify-content: center;
 }
 .name{
     font-family: 'lavishly Yours',cursive;
-    font-size: 50px;
-    margin: 3px 3px;
+    font-size: 70px;
+    margin: 10px 5px;
+    border-bottom: black 1px solid;
 }
 .container img{
     width: auto;
