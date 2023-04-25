@@ -37,13 +37,13 @@ header nav ul li a{
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    justify-content: flex-end;
 }
 .name{
     font-family: 'lavishly Yours',cursive;
     font-size: 50px;
-    /* align-self: flex-start; */
+    margin: 3px 3px;
 }
 .container img{
     width: auto;
