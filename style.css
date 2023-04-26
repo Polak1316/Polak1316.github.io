@@ -10,6 +10,8 @@ body{
 
 *{
     margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
 }
 /* navbar */
 header{
@@ -35,6 +37,7 @@ header nav ul li a{
 /* first section */
 
 .container{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,6 +45,13 @@ header nav ul li a{
     z-index: 1;
     
 }
+.container img{
+    width: 300px;
+    height:300px;
+    border-radius: 200px;
+    border: black 12px solid;
+}
+
 .dpholder{
     margin: 10px 3px;
     height: 30px;
