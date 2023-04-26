@@ -83,20 +83,31 @@ header nav ul li a:hover{
 }
 /* heading */
 .heading{
-    border-bottom: black 1px solid;
     margin: 60px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: black 1px solid; */
 }
 .headingname{
     font-family: 'lavishly Yours',cursive;
     font-size: 70px;
-    /* border-bottom: black 1px solid; */
+    margin-bottom: 50px;
+    border-bottom: black 1px solid;
 }
 .headingtext{
     margin-top: 10px;
     font-family: 'Satisfy', cursive;
     font-size: 30px;
+    
 }
 /* story of childhood */
+.little{
+    border-top: black 1px solid;
+    margin-top: 10px;
+}
 .little img{
     float: right;
     height: inherit;
