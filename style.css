@@ -31,10 +31,15 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
+header nav ul li a:hover{
+    color: grey;
 }
 /* navbar end */
 
-/* first section */
+/* hero start */
 
 .container{
     margin-top: 10px;
@@ -43,7 +48,7 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    height: 100vh;
+    height: 90vh;
     
 }
 .container img{
@@ -63,10 +68,12 @@ header nav ul li a{
     font-family: 'Satisfy', cursive;
     font-size: 30px;
 }
-
+/* hero complete */
+/* storyline section */
 .story{
     margin: 10px 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
@@ -74,8 +81,28 @@ header nav ul li a{
     /* border-radius: 3px; */
     box-shadow: #e1e3e0 3px;
 }
+/* heading */
+.heading{
+    border-bottom: black 1px solid;
+    margin: 60px;
+}
+.headingname{
+    font-family: 'lavishly Yours',cursive;
+    font-size: 70px;
+    /* border-bottom: black 1px solid; */
+}
+.headingtext{
+    margin-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+/* story of childhood */
 .little img{
     float: right;
+    height: inherit;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: -10;
 }
 .storytext{
     font-family: 'Satisfy', cursive;
