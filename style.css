@@ -77,8 +77,6 @@ header nav ul li a:hover{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    /* border: solid; */
-    /* border-radius: 3px; */
     box-shadow: #e1e3e0 3px;
 }
 /* heading */
@@ -89,7 +87,6 @@ header nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border-bottom: black 1px solid; */
 }
 .headingname{
     font-family: 'lavishly Yours',cursive;
@@ -107,6 +104,8 @@ header nav ul li a:hover{
 .little{
     border-top: black 1px solid;
     margin-top: 10px;
+    border-bottom: black 1px solid;
+
 }
 .little img{
     float: right;
@@ -120,4 +119,27 @@ header nav ul li a:hover{
     font-size: 25px;
     margin: 15px 15px;
     padding: 15px 15px;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-bottom: none;
+}
+.sixth img{
+    float: none;
+    height: auto;
+    width: 370px;
+    /* border: #f6e8d3 30px solid; */
+    padding: 10px 0px;
+    margin-top: 30px;
+    /* border-left: black 1px solid; */
+    /* border-right: black 1px solid; */
+}
+.breakteller{
+    margin: 20px 12px;
+    background-color: #f6e8d3;
+    border: black 15px solid;
 }
