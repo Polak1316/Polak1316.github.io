@@ -105,15 +105,30 @@ header nav ul li a:hover{
     border-top: black 1px solid;
     margin-top: 10px;
     border-bottom: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .little img{
-    float: right;
-    height: inherit;
-    width: auto;
+    
+    height: auto;
+    width: 300px;
     margin-bottom: 30px;
-    margin-top: -10;
+    margin-top: 40px;
+    border: black 20px solid;
+    box-shadow:  #f6e8d3 15px 15px;
 }
+.polakimg{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    border: black 20px solid;
+    padding-top: 10px;
+    box-shadow: #f6e8d3 10px 10px;
+}
+
 .storytext{
     font-family: 'Satisfy', cursive;
     font-size: 25px;
@@ -128,16 +143,7 @@ header nav ul li a:hover{
     border-top: none;
     border-bottom: none;
 }
-.sixth img{
-    float: none;
-    height: auto;
-    width: 370px;
-    /* border: #f6e8d3 30px solid; */
-    padding: 10px 0px;
-    margin-top: 30px;
-    /* border-left: black 1px solid; */
-    /* border-right: black 1px solid; */
-}
+
 .breakteller{
     margin: 20px 12px;
     background-color: #f6e8d3;
