@@ -111,7 +111,6 @@ header nav ul li a:hover{
 
 }
 .little img{
-    
     height: auto;
     width: 300px;
     margin-bottom: 30px;
@@ -167,3 +166,14 @@ header nav ul li a:hover{
     background-color: #f6e8d3;
     border: black 15px solid;
 }
+.freestyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 1px solid;
+}
+/* .imge{
+    border: none;
+    box-shadow: none;
+} */
