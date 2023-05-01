@@ -91,12 +91,7 @@ header nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-.headingname{
-    font-family: 'lavishly Yours',cursive;
-    font-size: 70px;
-    margin-bottom: 50px;
-    border-bottom: black 1px solid;
-}
+
 .headingtext{
     margin-top: 10px;
     font-family: 'Satisfy', cursive;
@@ -179,3 +174,4 @@ header nav ul li a:hover{
 .imge{
     margin-bottom: 30px;
 }
+
