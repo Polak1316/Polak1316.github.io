@@ -37,6 +37,9 @@ header nav ul li a{
 header nav ul li a:hover{
     color: grey;
 }
+.active{
+    background-color: #f6e8d3;
+}
 /* navbar end */
 
 /* hero start */
@@ -173,7 +176,6 @@ header nav ul li a:hover{
     align-items: center;
     border-bottom: black 1px solid;
 }
-/* .imge{
-    border: none;
-    box-shadow: none;
-} */
+.imge{
+    margin-bottom: 30px;
+}
