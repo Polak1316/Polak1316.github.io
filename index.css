@@ -1,0 +1,22 @@
+.buttondiv{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-primary{
+    color: black;
+    background-color: white;
+    border: black 1px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+}
+.btn-primary:hover{
+    background-color: black;
+    color: white;
+}
