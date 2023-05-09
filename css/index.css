@@ -20,3 +20,65 @@
     background-color: black;
     color: white;
 }
+
+.btn-secondary{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: white;
+    color: green;
+}
+
+/* footer */
+footer{
+    padding: 30px 0px;
+    background-color: black;
+    color: white;
+
+}
+.contain{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation a{
+    text-decoration: none;
+    color: green;
+    font-family: 'satisfy',cursive;
+    font-size: 17px;
+    margin: 0px 15px;
+}
+.navigation a:hover{
+    color: white;
+}
+.foot-section1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-section1 h3
+{
+    font-family: 'satisfy',cursive;
+    font-size: 20px;
+    border-bottom: grey 1px solid;
+    margin: 10px 0px;
+}
+.foot-section1 p{
+    font-family: 'satisfy',cursive;
+    margin: 5px 0px;
+}
+.foot-section2 {
+    text-align: center;
+    margin-top: 30px;
+    border-top: white 1px solid;
+}
