@@ -14,7 +14,7 @@
             <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="storyline.html">Storyline</a></li>
-                <li><a href="">Status</a></li>
+                <li><a href="status.html">Status</a></li>
 
             </ul>
         </nav>
@@ -37,14 +37,36 @@
                 </div>
             </div>
         </div>
+        
+        <!-- storyline -->
+        <div class="story">
+            <div class="heading">
+                <p class="name">Flip Book</p>
+                <p class="headingtext">Flip Images Bringing Back Memories</p>
+                <div class="buttondiv">
+                    <button onclick="flip()" class="btn-primary">Read Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- status -->
+        <div class="story">
+            <div class="heading">
+                <p class="name">Status</p>
+                <p class="headingtext">Status Update Of Your Life</p>
+                <div class="buttondiv">
+                    <button onclick="status()" class="btn-primary">Get Updated</button>
+                </div>
+            </div>
+        </div>
 
     <!-- footer -->
     <footer>
         <div class="contain">
             <div class="navigation">
-                <a href="#">Home</a>|
+                <a href="">Home</a>|
                 <a href="storyline.html"> Storyline</a>|
-                <a href="/pages/status.html">Status</a>
+                <a href="status.html">Status</a>
             </div>
             <div class="foot-section1">
                 <h3>Code And Design</h3>
@@ -59,11 +81,14 @@
             </div>
     </footer>
     <script>
-        function home() {
-            window.open("/index.html", "_self");
-        }
         function storyline(){
             window.open("storyline.html","_self");
+        }
+        function flip(){
+            window.open("storyline.html#flipbookdiv","_self");
+        }
+        function status(){
+            window.open("status.html","_self");
         }
     </script>
 </body>
